@@ -6,7 +6,7 @@ public class ThisIsASampleClass {
   // dasssssssssssssssssssssssssssssssssssssssdddddddddddddddddddddddddddd ssssssss
   // sssssssssssss</title>
   private static final String PRUEBA_AAAAAAAAAA =
-      "<title>Title me llamo alberto, como , ocawdsssssssssss,"
+          "<title>Title me llamo alberto, como , ocawdsssssssssss,"
           + "dasssssssssssssssssssssssssssssssssss dasssssss "
           + "ssssssssssssssssssssssssssssdasssssssssssssssss "
           + "ssssssssssssssssssdasssssssssssssssssssssssssssssssssss  "

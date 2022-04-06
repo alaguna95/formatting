@@ -1,9 +1,8 @@
 package com.alaguna95.architecture;
 
-import org.springframework.core.annotation.Order;
-
 import java.util.Collection;
 import java.util.Objects;
+import org.springframework.core.annotation.Order;
 
 public class RearrangeCode {
   private int id;
@@ -25,29 +24,29 @@ public class RearrangeCode {
   @Override
   public String toString() {
     return "RearrangeCode{"
-        + "id="
-        + id
-        + ", firstName='"
-        + firstName
-        + '\''
-        + ", middleName='"
-        + middleName
-        + '\''
-        + ", lastName='"
-        + lastName
-        + '\''
-        + ", phone='"
-        + phone
-        + '\''
-        + ", email='"
-        + email
-        + '\''
-        + ", notes='"
-        + notes
-        + '\''
-        + ", ordersById="
-        + ordersById
-        + '}';
+           + "id="
+           + id
+           + ", firstName='"
+           + firstName
+           + '\''
+           + ", middleName='"
+           + middleName
+           + '\''
+           + ", lastName='"
+           + lastName
+           + '\''
+           + ", phone='"
+           + phone
+           + '\''
+           + ", email='"
+           + email
+           + '\''
+           + ", notes='"
+           + notes
+           + '\''
+           + ", ordersById="
+           + ordersById
+           + '}';
   }
 
   public void setFirstName(String firstName) {
@@ -118,13 +117,13 @@ public class RearrangeCode {
     }
     RearrangeCode that = (RearrangeCode) o;
     return id == that.id
-        && Objects.equals(firstName, that.firstName)
-        && Objects.equals(middleName, that.middleName)
-        && Objects.equals(lastName, that.lastName)
-        && Objects.equals(phone, that.phone)
-        && Objects.equals(email, that.email)
-        && Objects.equals(notes, that.notes)
-        && Objects.equals(ordersById, that.ordersById);
+           && Objects.equals(firstName, that.firstName)
+           && Objects.equals(middleName, that.middleName)
+           && Objects.equals(lastName, that.lastName)
+           && Objects.equals(phone, that.phone)
+           && Objects.equals(email, that.email)
+           && Objects.equals(notes, that.notes)
+           && Objects.equals(ordersById, that.ordersById);
   }
 
   @Override
