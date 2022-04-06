@@ -12,7 +12,7 @@ public class ArchitectureApplication {
 
   public static void main(String[] args) {
     System.out.println(
-            "Hola me llamo alberto estoy probando el formateo que funcione, sabes por que no me"
+        "Hola me llamo alberto estoy probando el formateo que funcione, sabes por que no me"
             + " funciona, yo creo que si escribes normal si te funciona, solo tienes que escribir"
             + " de a me llamo akberto laguna me repito addd a aapoco u entonces Hola me llamo"
             + " alberto estoy probando el formateo que funcione, sabes por que no me funciona, yo"
@@ -22,22 +22,22 @@ public class ArchitectureApplication {
     List<String> strings = new ArrayList<>();
 
     strings.stream()
-            .filter(a -> a.equals("Pruebas de efecto"))
-            .filter(
-                    a ->
-                            a.equals(
-                                    "Prueba de "
-                                    + "sdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd "
-                                    + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa"
-                                    + "aaaaaaaaaaaaaaaaa"
-                                    + "ddddddddddddd"
-                                    + "sdddddddddd"))
-            .map(a -> a + "me llamo josesfa")
-            .map(
-                    a -> {
-                      return a + a;
-                    })
-            .collect(Collectors.toList());
+        .filter(a -> a.equals("Pruebas de efecto"))
+        .filter(
+            a ->
+                a.equals(
+                    "Prueba de "
+                        + "sdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd "
+                        + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa"
+                        + "aaaaaaaaaaaaaaaaa"
+                        + "ddddddddddddd"
+                        + "sdddddddddd"))
+        .map(a -> a + "me llamo josesfa")
+        .map(
+            a -> {
+              return a + a;
+            })
+        .collect(Collectors.toList());
 
     SpringApplication.run(ArchitectureApplication.class, args);
   }
@@ -53,14 +53,14 @@ public class ArchitectureApplication {
     }
 
     return 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1
-           && 1 == 1 && 1 == 1
-            ? "pesssssssdrito"
-            : "jusssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss  "
-              + "sssssssssssssssssssssssab";
+            && 1 == 1 && 1 == 1
+        ? "pesssssssdrito"
+        : "jusssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss  "
+            + "sssssssssssssssssssssssab";
   }
 
   private String
-  testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
+      testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
           Integer a) throws IOException {
     throw new IOException("sd");
   }
