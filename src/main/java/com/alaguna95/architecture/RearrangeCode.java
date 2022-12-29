@@ -5,6 +5,7 @@ import java.util.Objects;
 import org.springframework.core.annotation.Order;
 
 public class RearrangeCode {
+
   private int id;
 
   public int getId() {
