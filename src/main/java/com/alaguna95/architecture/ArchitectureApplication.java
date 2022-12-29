@@ -21,23 +21,13 @@ public class ArchitectureApplication {
 
     List<String> strings = new ArrayList<>();
 
-    strings.stream()
-        .filter(a -> a.equals("Pruebas de efecto"))
-        .filter(
-            a ->
-                a.equals(
-                    "Prueba de "
-                        + "sdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd "
-                        + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa"
-                        + "aaaaaaaaaaaaaaaaa"
-                        + "ddddddddddddd"
-                        + "sdddddddddd"))
-        .map(a -> a + "me llamo josesfa")
-        .map(
-            a -> {
-              return a + a;
-            })
-        .collect(Collectors.toList());
+    strings.stream().filter(a -> a.equals("Pruebas de efecto")).filter(a -> a.equals(
+            "Prueba de " + "sdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd "
+                + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa"
+                + "aaaaaaaaaaaaaaaaa" + "ddddddddddddd" + "sdddddddddd"))
+        .map(a -> a + "me llamo josesfa").map(a -> {
+          return a + a;
+        }).collect(Collectors.toList());
 
     SpringApplication.run(ArchitectureApplication.class, args);
   }
@@ -57,14 +47,12 @@ public class ArchitectureApplication {
     }
 
     return 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1 && 1 == 1
-        && 1 == 1 && 1 == 1
-        ? "pesssssssdrito"
+        && 1 == 1 && 1 == 1 ? "pesssssssdrito"
         : "jusssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss  "
             + "sssssssssssssssssssssssab";
   }
 
-  private String
-  testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
+  private String testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
       Integer a) throws IOException {
     throw new IOException("sd");
   }
