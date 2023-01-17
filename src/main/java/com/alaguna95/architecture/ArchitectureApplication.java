@@ -54,8 +54,7 @@ public class ArchitectureApplication {
             + "sssssssssssssssssssssssab";
   }
 
-  private String
-  testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
+  private String testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
       Integer a) throws IOException {
     throw new IOException("sd");
   }
