@@ -10,7 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ArchitectureApplication {
 
+
   public static void main(String[] args) {
+
     System.out.println(
         "Hola me llamo alberto estoy probando el formateo que funcione, sabes por que no me"
             + " funciona, yo creo que si escribes normal si te funciona, solo tienes que escribir"
@@ -52,7 +54,8 @@ public class ArchitectureApplication {
             + "sssssssssssssssssssssssab";
   }
 
-  private String testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
+  private String
+  testttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttsaasdass(
       Integer a) throws IOException {
     throw new IOException("sd");
   }
